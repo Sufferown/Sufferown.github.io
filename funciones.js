@@ -1,6 +1,3 @@
-$(function () {
-    $("#boton").on("click", function () {
-        success:
-        alert("Botón de prueba");
-    })
-})
+function boton(){
+    window.alert("Esta es la alerta!")
+}
